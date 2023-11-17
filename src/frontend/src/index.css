@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    overflow-x: hidden;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+  /* Estilos para a tabela */
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #2d253f;
+  color: white;
+}
+
+th, td {
+  border: 1px solid #e2e8f0;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+td {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para a primeira linha da tabela (cabeçalho) */
+thead tr {
+  font-size: 1rem;
+}
+
+/* Estilos para as células do corpo da tabela */
+tbody tr {
+  font-size: 0.875rem;
+  background-color: #f7fafc;
+}
+
+/* Estilos para células específicas, se necessário */
+/* Exemplo: Estilizando a célula da primeira coluna */
+td:first-child {
+  font-weight: bold;
+}
